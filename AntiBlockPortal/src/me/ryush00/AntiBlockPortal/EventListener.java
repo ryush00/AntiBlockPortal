@@ -33,7 +33,7 @@ public class EventListener implements Listener {
 				}
 			}
 		}
-		if(existportal) { //주위 1블럭 내에 포탈이 존재할 경우
+		if(existportal) { //주위 1블럭 내에 포탈이 존재할 경우 //
 			e.getPlayer().sendMessage("포탈 주위에 블럭을 설치할 수 없습니다.");
 			e.setCancelled(true);
 		}
