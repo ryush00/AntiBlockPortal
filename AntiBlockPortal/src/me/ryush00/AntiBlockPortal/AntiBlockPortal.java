@@ -14,7 +14,7 @@ public class AntiBlockPortal extends JavaPlugin {
     	logger = getServer().getLogger();
 		//this.getCommand("join").setExecutor(new CommandListener(this));
 		registerEvents(new EventListener(this));
-		logger.info("ProjectMG가 활성화 되었습니다.");
+		logger.info("AntiBlockPortal이 활성화 되었습니다. 제작 ryush00@gmail.com");
 		
 		
 	}
@@ -25,7 +25,7 @@ public class AntiBlockPortal extends JavaPlugin {
 	
 	@Override
 	public void onDisable() {
-		logger.info("ProjectMG가 비활성화 되었습니다.");
+		logger.info("AntiBlockPortal이 비활성화 되었습니다.  제작 ryush00@gmail.com");
 	}
 
 }
