@@ -1,6 +1,6 @@
 name: AntiBlockPortal
 main: me.ryush00.AntiBlockPortal.AntiBlockPortal
-version: 0.1
+version: 0.2
 commands:
    AntiBlockPortal:
       description: AntiBlockPortal command
