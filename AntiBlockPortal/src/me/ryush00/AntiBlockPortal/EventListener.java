@@ -40,7 +40,6 @@ public class EventListener implements Listener {
 	}
 	
 	private boolean CheckPortal(World world, Double x, Double y, Double z) {
-		logger.info(new Location(world,x,y,z).getBlock().toString());
 		if(new Location(world,x,y,z).getBlock().getType() == Material.PORTAL) { //포탈일경우
 			return true; //참을 반환
 		}
